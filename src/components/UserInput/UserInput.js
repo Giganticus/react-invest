@@ -1,6 +1,6 @@
 ﻿import styles from "./UserInput.module.css";
 
-const UserInputForm = () => {
+const UserInput = () => {
   return (
     <form className={styles.form}>
       <div className={styles["input-group"]}>
@@ -37,4 +37,4 @@ const UserInputForm = () => {
   );
 };
 
-export default UserInputForm;
+export default UserInput;

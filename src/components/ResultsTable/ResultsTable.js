@@ -1,6 +1,6 @@
-﻿import styles from "./Results.module.css";
+﻿import styles from "./ResultsTable.module.css";
 
-const Result = (props) => {
+const ResultsTable = (props) => {
   return (
     <table className={styles.result}>
       <thead>
@@ -25,4 +25,4 @@ const Result = (props) => {
   );
 };
 
-export default Result;
+export default ResultsTable;

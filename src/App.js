@@ -1,6 +1,6 @@
-import Header from "./Components/Header/Header";
-import UserInputForm from "./Components/UserInputForm/UserInputForm";
-import Result from "./Components/Results/Result";
+import Header from "./components/Header/Header";
+import ResultsTable from "./components/ResultsTable/ResultsTable";
+import UserInput from "./components/UserInput/UserInput";
 
 function App() {
   const calculateHandler = (userInput) => {
@@ -33,11 +33,11 @@ function App() {
   return (
     <div>
       <Header />
-      <UserInputForm />
+      <UserInput />
 
       {/* Todo: Show below table conditionally (only once result data is available) */}
       {/* Show fallback text if no data is available */}
-      <Result />
+      <ResultsTable />
     </div>
   );
 }
