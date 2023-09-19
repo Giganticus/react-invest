@@ -1,0 +1,6 @@
+1. Split into components
+2. Handle Submit on form is submitted
+   Handle click event on reset button
+3. Manage some state - id different pieces of state
+4. Output results 
+5. Styling - at least split up index.css into modules
